@@ -242,7 +242,7 @@ export default function CardList2() {
                                 </Stack>
                             </Box>
                             <Typography
-                                variant="p"
+                                // variant="p"
                                 sx={{
                                     color: "rgb(171, 187, 194)",
                                     fontSize: "15px",
@@ -386,7 +386,7 @@ export default function CardList2() {
                                 </Stack>
                             </Box>
                             <Typography
-                                variant="p"
+                                // variant="p"
                                 sx={{
                                     color: "rgb(171, 187, 194)",
                                     fontSize: "15px",
@@ -540,7 +540,7 @@ export default function CardList2() {
                                 </Stack>
                             </Box>
                             <Typography
-                                variant="p"
+                                // variant="p"
                                 sx={{
                                     color: "rgb(171, 187, 194)",
                                     fontSize: "15px",
