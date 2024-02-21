@@ -99,40 +99,6 @@ export default function CardList2() {
                         </Link>
                     </Box>
                 </Stack>
-                <Box
-                    sx={{
-                        boxShadow: "0px 0px 0px 0px #0000",
-                        backgroundColor: "rgb(82, 82, 227)",
-                        display: "flex",
-                        alignItems: "center",
-                        width: "100%",
-                        padding: "16px 36px",
-                        borderRadius: "6px",
-                        border: "1px solid #ccc",
-                        opacity: "0.6",
-                        gap: "15px",
-                        color: "#f5f5f5",
-                        " @media(max-width:991px)": {
-                            padding: "0.7rem 1.8rem",
-                        },
-                        " @media(max-width:479px)": {
-                            alignItems: "flex-start",
-                            padding: "0.5rem 0.8rem",
-                        },
-                    }}
-                >
-                    <img
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+PHBhdGggZD0iTTI5MC4yMTEgMzYwLjcyN2EyNC44OTYgMjQuODk2IDAgMCAxLTE1LjAxMS0zLjM3NSAxNS41OTMgMTUuNTkzIDAgMCAxLTQuMzA1LTEyLjggNjYuNDkgNjYuNDkgMCAwIDEgMS4zOTYtMTEuNjM2Yy43ODEtNC4zOTQgMS43OS04Ljc0NCAzLjAyNS0xMy4wMzNsMTMuNzMxLTQ3LjI0NGE3MS41MzUgNzEuNTM1IDAgMCAwIDIuNzkzLTE0LjMxM2MwLTUuMjM2LjY5OC04Ljg0NC42OTgtMTAuOTM4YTMwLjYwMiAzMC42MDIgMCAwIDAtMTAuODIyLTI0LjMyIDQ1LjUgNDUuNSAwIDAgMC0zMC43Mi05LjMwOSA3OS43MiA3OS43MiAwIDAgMC0yMy4yNzMgMy44NGMtOC4yMjMgMi41Ni0xNi44NzMgNS42MjQtMjUuOTQ5IDkuMTkzbC0zLjk1NiAxNS4zNmMyLjY3Ni0uOTMxIDUuOTM1LTEuOTc4IDkuNjU4LTMuMTQyYTM5LjU3MiAzOS41NzIgMCAwIDEgMTAuOTM4LTEuNjI5IDIyLjM0MyAyMi4zNDMgMCAwIDEgMTQuNzc4IDMuNjA3IDE2Ljg3NSAxNi44NzUgMCAwIDEgMy44NCAxMi42ODQgNTUuMTkgNTUuMTkgMCAwIDEtMS4yOCAxMS42MzZjLS44MTUgNC4wNzMtMS44NjIgOC4zNzgtMy4xNDIgMTIuOTE2TDIxOC43NjMgMzI1LjdhMTM1LjY1MSAxMzUuNjUxIDAgMCAwLTIuNjc2IDEzLjM4MiA4My4xMTggODMuMTE4IDAgMCAwLS44MTUgMTEuNjM2IDMwLjM2OSAzMC4zNjkgMCAwIDAgMTEuNjM2IDI0LjA4NyA0Ni41NSA0Ni41NSAwIDAgMCAzMS4xODUgOS41NDIgNzEuNzggNzEuNzggMCAwIDAgMjMuMjczLTMuMzc1YzYuNTk0LTIuMjUgMTUuMzk5LTUuNDY5IDI2LjQxNS05LjY1OGwzLjcyNC0xNC42NjJhNjQuMjgzIDY0LjI4MyAwIDAgMS05LjE5MyAzLjAyNSA0NC4xOSA0NC4xOSAwIDAgMS0xMi4xMDEgMS4wNXpNMzA0Ljc1NiAxMzYuNzI3QTMzLjE2MyAzMy4xNjMgMCAwIDAgMjgxLjQ4MyAxMjhhMzMuMzk2IDMzLjM5NiAwIDAgMC0yMy4yNzMgOC43MjdjLTExLjYzMiAxMC4wMy0xMi45MzEgMjcuNTkxLTIuOSAzOS4yMjRhMjcuNzYyIDI3Ljc2MiAwIDAgMCAyLjkgMi45YzEzLjI1MiAxMS44NTMgMzMuMjk0IDExLjg1MyA0Ni41NDUgMCAxMS42MzItMTAuMTI5IDEyLjg1MS0yNy43NjkgMi43MjItMzkuNDAxYTI3Ljc1NCAyNy43NTQgMCAwIDAtMi43MjEtMi43MjN6IiBmaWxsPSIjOWRhY2IyIiBvcGFjaXR5PSIxIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0iTTI1NiAwQzExNC42MTUgMCAwIDExNC42MTUgMCAyNTZzMTE0LjYxNSAyNTYgMjU2IDI1NiAyNTYtMTE0LjYxNSAyNTYtMjU2UzM5Ny4zODUgMCAyNTYgMHptMCA0ODguNzI3QzEyNy40NjggNDg4LjcyNyAyMy4yNzMgMzg0LjUzMiAyMy4yNzMgMjU2UzEyNy40NjggMjMuMjczIDI1NiAyMy4yNzMgNDg4LjcyNyAxMjcuNDY4IDQ4OC43MjcgMjU2IDM4NC41MzIgNDg4LjcyNyAyNTYgNDg4LjcyN3oiIGZpbGw9IiM5ZGFjYjIiIG9wYWNpdHk9IjEiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSIiPjwvcGF0aD48L2c+PC9zdmc+"
-                        style={{ minWidth: "18px" }}
-                        width="18px"
-                        height="18px"
-                    />
-                    <Typography variant="subtitle1" sx={{ fontSize: "15px" }}>
-                        Select a template to install demo content and view the
-                        code implementation, or start from scratch with an empty
-                        project.
-                    </Typography>
-                </Box>
                 <Stack
                     sx={{ width: "100%", alignItems: "center" }}
                     spacing="0px"

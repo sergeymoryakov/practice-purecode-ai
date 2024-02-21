@@ -1,13 +1,15 @@
 // import "./App.css";
 
-import CardList from "./Components/CardList";
+import Header from "./Components/Header";
 import CardList2 from "./Components/CardList2";
+import Footer from "./Components/Footer";
 
 function App() {
     return (
         <>
-            <CardList />
+            <Header />
             <CardList2 />
+            <Footer />
         </>
     );
 }
