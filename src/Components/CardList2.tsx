@@ -12,7 +12,7 @@ export default function CardList2() {
             sx={{
                 fontFamily: "sans-serif",
                 width: "100%",
-                maxWidth: "1300px",
+                // maxWidth: "1300px",
                 backgroundColor: "rgb(8,8,8)",
                 padding: "15px 5px",
             }}

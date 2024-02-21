@@ -16,7 +16,7 @@ export default function Header() {
                 justifyContent: "space-between",
                 columnGap: "20px",
                 width: "100%",
-                maxWidth: "1300px",
+                // maxWidth: "1300px",
                 backgroundColor: "rgb(8,8,8)",
                 alignItems: "center",
                 padding: "8px 10px",
